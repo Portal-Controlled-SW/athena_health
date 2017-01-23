@@ -102,6 +102,7 @@ module AthenaHealth
     attribute :guarantoremployerid,                  Integer
     attribute :employername,                         String
     attribute :employeraddress,                      String
+    attribute :registrationdate,                     String
 
     def fullname
       "#{firstname} #{middlename} #{lastname}"
